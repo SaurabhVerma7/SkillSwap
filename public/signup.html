@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkillSwap - Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Join SkillSwap</h1>
+    <form id="signupForm">
+      <input type="text" id="name" placeholder="Full Name" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="password" placeholder="Password (min 6 characters)" minlength="6" required>
+      <input type="text" id="teaches" placeholder="Skills you can teach (comma separated)" required>
+      <input type="text" id="learns" placeholder="Skills you want to learn (comma separated)" required>
+      <button type="submit" class="btn">Join SkillSwap</button>
+    </form>
+    <p>Already have an account? <a href="/login.html">Login</a></p>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
